@@ -1,0 +1,160 @@
+@font-face{  /* font-family: DancingScript-Bold; */
+    font-family: DancingScript-Bold;
+    src: url("../fonts/DancingScript-Bold.ttf") format('truetype');
+	}
+img{ 
+	max-width: 100%;
+	vertical-align: top;
+	}
+body{ 
+	margin:0px; 
+	background-color: #0d092b;	
+    min-width: 320px;
+	}
+/* Elementos del index */
+header{
+    background-image: url(../img/corazones1.png);
+    background-size: contain;
+    background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	margin: 20px;
+	background-color: #eb327f;
+	padding: 5px;
+	border-radius: 20px;
+	}
+#logo{
+	font-family: DancingScript-Bold;
+	font-size: 5em;
+	color: black;
+	font-style: italic;
+	}
+#maker{
+	margin-left: 10px;
+	color: lightblue;
+	}
+#intro{
+	text-align: justify;
+	margin: 20px;
+	color: white;
+	font-size: 1.3em;
+	}
+#principal{
+	margin: 20px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	}
+#ind{
+	width: 276px;
+	margin: auto;
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+#cajanombre{
+	margin-right: 5px;
+	padding-left: 5px;
+	border-radius: 10px;
+	width: 276px;
+	}
+#nombre{
+	padding-left: 5px;
+	flex:1}
+#botonadd{
+	width: 115px;
+	cursor: pointer;
+	}
+#caja{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	overflow: hidden;
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 20px;
+	}
+#txtfondos{
+	width: 100%;
+	color: white;
+	font-size: 1.3em;
+	}
+#lista_fondos{
+	display: flex;
+	flex-wrap: wrap;
+	}
+/* Elementos creados en la funcion addlista */
+.cajalista{
+	width: 30%;
+	margin: 5px 5px;
+	overflow: hidden;
+	border-radius: 10px;
+	width: 276px;
+	text-align: center;
+	}
+.cajanom{
+    display: flex;
+	padding: 3px 0;
+	background-color: cornflowerblue;
+	}
+#cajaadd{
+	display: flex;
+	justify-content: center;
+	background-color: cornflowerblue;
+	padding: 0 0 5px 0;
+	}
+.elemento{
+	margin-right: 5px;
+	padding-left: 5px;
+	width: 225px;
+	}
+.boton{
+	width: 20px;
+	cursor: pointer;
+	}
+.listacompra{
+	background-color: lightblue;
+	height: 270px;
+	overflow-y: scroll;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size:cover;
+	}
+#titulo{
+    width: 90%;
+	font-weight: bold;
+	}
+/* Elementos creados en la funcion leer */
+.linea{
+	display:flex;
+	justify-content: space-between;
+	background-color: rgba(0,0,0, 0.8)
+	}
+#producto{
+	padding: 5px;
+	color: white
+	}
+.botoneliminar{cursor: pointer;}
+/* Elementos creados en la funcion fondoslist */
+.fondos_nombres{
+	margin: 5px;
+	cursor: pointer;
+	}
+div.fondos_nombres:hover{
+	text-decoration: underline;
+	}
+@media only screen and (max-width:415px){
+    header{
+        margin: 0px;
+        border-radius: 0 0 20px 20px;
+    }
+    #logo{
+        font-size: 3em;
+	}
+    #txtfondos{
+        display: none;
+    }
+}
