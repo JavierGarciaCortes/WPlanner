@@ -1,38 +1,35 @@
 <html>
-
 <head>
     <meta charset="utf-8" />
     <title>WPlanner</title>
     <meta name="description" content="¡Te casas! ¡Felicidades! Aquí tendrás te ayudaremos a preparar tu boda. Creando tus listas, estarás preparado para tu boda, sin dejarte ningún detalle." />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css" type="text/css" />
     <script type="text/javascript" src="js/main.js"> </script>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <style type="text/css"></style>
 </head>
-
 <body>
     <header>
         <div id="logo">WPlanner</div>
-        <div id="maker">by JJ</div>
+        <div id="maker">by JGC</div>
     </header>
-
     <section>
         <div id="intro">Sabemos lo difícil que es organizar una boda; invitados, elegir restaurante, regalos, flores, etc. Por eso nosotros te queremos ayudar. En nuestra web podrás crear todas las listas que necesites para no olvidarte de ningún detalle.<p> De una forma muy sencilla podrás ir creando sobre la marcha las listas que necesites e ir rellenándola cuando quieras. También podrás eliminar en cualquier momento los elementos de cada lista, si cambias de idea o crees que ya no son necesarios.<p> Solo nos queda deciros: ¡ FELICIDADES!</div>
     </section>
     <main id="principal">
-
-        <div id="txtfondos">Elije uno de estos nombres para tu lista y disfruta de nuestros fondos
-            <div id="lista_fondos"></div>
-        </div>
-
+       <div id="top">
+        <select id="ourlistas">
+            <option>Elije una de nuestras listas</option>
+        </select>
         <div id="ind">
-            <div id="cajanombre"><input id="nombre" type="text" placeholder="Nombre de lista" autofocus="" /></div>
-            <button id="botonadd">Añadir lista</button>
+            <div id="textocajanombre">O escribe el nombre de tu lista: </div>
+            <div id="subcaj">
+                <input id="nombre" type="text" placeholder="Nombre de lista" autofocus="" />
+                <button id="botonadd">➕</button>
+            </div>
         </div>
-
+        </div>
         <div id="caja"></div>
-
     </main>
-
 </body>
-
 </html>
